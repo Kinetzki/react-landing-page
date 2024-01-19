@@ -13,14 +13,21 @@
     width: 185px;
     height: 180px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .card-container hr{
     width: 100%;
     border-bottom: 0.5px solid rgb(66, 155, 158);
     margin-top: 0;
+    margin-bottom: 0;
 }
 
+.card-container ul {
+    margin: 0;
+    padding: 0.5rem 0 0 1rem;
+    line-height: 1.5rem;
+}
 .card-title svg{
     width: 30px;
     fill: var(--text-high);
