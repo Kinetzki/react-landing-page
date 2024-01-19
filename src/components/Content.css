@@ -1,0 +1,9 @@
+.content-main {
+    min-width: 50vw;
+    display: flex;
+    /* border-right: var(--secondary-color) 1px solid; */
+    padding: 2rem 2rem 1rem 5rem;
+}
+.full {
+    width: 100%;
+}

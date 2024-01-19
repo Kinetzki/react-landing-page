@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Righteous&display=swap");
+
+:root {
+  font-family: "Inter";
+  line-height: 1.25rem;
+  font-weight: 490;
+  font-size: 0.91rem;
+
+  color-scheme: dark;
+  color: rgba(138, 211, 211, 0.986);
+  background-color: #182337;
+
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --secondary-color: #1d3050;
+  --text-high: #44fdff;
+  --backgroundColor: #182337;
+}
+
+@font-face {
+  font-family: 'Blanka'; 
+  src: url('../src/assets/Blanka-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;  
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: color-dodge;
+  background-position: center;
+}
+
+#root {
+  display: flex;
+}
+h2,
+h1 {
+  color: #bdfeffef;
+}
+
+hr {
+  border: 1px solid var(--secondary-color);
+  margin: 0.5em 0 1.5em 0;
+}

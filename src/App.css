@@ -1,0 +1,24 @@
+.box {
+  border: var(--secondary-color) 1px solid;
+  border-radius: 0.5em;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.shaded-box {
+  border: var(--secondary-color) 1px solid;
+  border-radius: 0.5em;
+  padding: 1rem 2rem 1rem 1rem;
+  margin-bottom: 0.7rem;
+  background-color: var(--secondary-color);
+  line-height: 1.8rem;
+}
+.shaded-box p {
+  margin: 0;
+}
+
+.frost {
+  background-color: #182337c4;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(10px);
+}

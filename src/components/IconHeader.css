@@ -1,0 +1,14 @@
+.icon-header h2 {
+  display: inline;
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.icon-header svg {
+  width: 30px;
+  fill: #a3fdffe7;
+}

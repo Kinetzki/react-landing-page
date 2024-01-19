@@ -1,0 +1,46 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    width: 185px;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+.card-container hr{
+    width: 100%;
+    border-bottom: 0.5px solid rgb(66, 155, 158);
+    margin-top: 0;
+}
+
+.card-title svg{
+    width: 30px;
+    fill: var(--text-high);
+}
+
+.card-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.5rem;
+}
+.card-title h4 {
+    font-size: 1rem;
+}
+.wrap-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}

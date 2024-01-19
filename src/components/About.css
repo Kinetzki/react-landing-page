@@ -1,0 +1,27 @@
+.intro h2,
+.intro h1,
+.intro h3,
+.intro p{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.intro {
+    line-height: 1.8rem;
+}
+
+.educ-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: right;
+}

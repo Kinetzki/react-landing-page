@@ -1,0 +1,14 @@
+.cert-img-container img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.cert {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cert-detail {
+    background-color: aqua;
+}
