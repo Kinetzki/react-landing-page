@@ -16,6 +16,13 @@ function Other(props) {
             intersecting={props.intersecting}
           />
         )}
+        {props.current === "skills" && (
+          <Anchorage
+            items={["Programming Languages", "Front-end Frameworks", "Back-end Frameworks", "Source Control", "Operating Systems"]}
+            keywords={["prog", "front", "back", "source", "os"]}
+            intersecting={props.intersecting}
+          />
+        )}
       </div>
 
       <div className="other-foot">
