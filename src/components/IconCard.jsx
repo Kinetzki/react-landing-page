@@ -1,5 +1,5 @@
 import React from "react";
-import "./Iconcard.css";
+import "./IconCard.css";
 
 function IconCard({ children, title }) {
   return (
