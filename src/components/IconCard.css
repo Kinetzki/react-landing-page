@@ -1,0 +1,23 @@
+.icon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+    height: fit-content;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    width: 85px;
+    font-size: 0.9rem;
+}
+
+.icon-card svg {
+    width: 35px;
+    height: 35px;
+    fill: var(--text-high);
+}
+
+.icon-card h4 {
+    margin: 0;
+}

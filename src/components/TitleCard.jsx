@@ -9,9 +9,9 @@ function TitleCard({children, title, listItems}) {
         </div>
         <hr />
         <ul>
-        {listItems.map((listItem)=> {
+        {listItems.map((listItem, i)=> {
             return (
-                <li>{listItem}</li>
+                <li key={i}>{listItem}</li>
             )
         })}
         </ul>

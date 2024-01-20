@@ -14,8 +14,12 @@
     height: 180px;
     box-sizing: border-box;
     cursor: pointer;
+    transition-duration: 0.2s;
 }
-
+.card-container:hover {
+    box-shadow: 0 0 5px 0.1rem var(--text-high);
+    transform: scale(1.02);
+}
 .card-container hr{
     width: 100%;
     border-bottom: 0.5px solid rgb(66, 155, 158);
