@@ -122,4 +122,14 @@ hr {
   .active {
     padding: 6px;
   }
+  .box {
+    padding: 10px 10px;
+  }
+  .cert {
+    gap: 10px;
+  }
+
+  .educ-container {
+    gap: 10px;
+  }
 }
