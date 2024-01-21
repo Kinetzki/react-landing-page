@@ -119,4 +119,7 @@ hr {
     width: 100%;
     box-sizing: border-box;
   }
+  .active {
+    padding: 6px;
+  }
 }
