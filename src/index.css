@@ -63,7 +63,7 @@ hr {
     height: fit-content;
     z-index: 1;
     width: 100vw;
-    padding: 0 2rem;
+    padding: 5px 5px;
   }
 
   .menu-panel ul {
