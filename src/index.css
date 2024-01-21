@@ -22,8 +22,8 @@
 }
 
 @font-face {
-  font-family: 'Blanka'; 
-  src: url('../src/assets/Blanka-Regular.otf') format('opentype');
+  font-family: "Blanka";
+  src: url("../src/assets/Blanka-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -33,7 +33,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
   background-image: url("./assets/bg.png");
   background-size: cover;
   background-attachment: fixed;
@@ -54,7 +54,7 @@ hr {
   margin: 0.5em 0 1.5em 0;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   #root {
     flex-direction: column;
   }
@@ -62,11 +62,13 @@ hr {
     flex-direction: row;
     height: fit-content;
     z-index: 1;
+    width: 100vw;
+    padding: 0 2rem;
   }
 
   .menu-panel ul {
     flex-direction: row;
-    gap: 1rem;
+    gap: 10px;
     height: fit-content;
   }
 
@@ -75,12 +77,13 @@ hr {
     height: 50px;
   }
   .content-main {
-    padding: 1rem;
     justify-content: center;
     box-sizing: border-box;
+    width: 100vw;
+    padding: 5px;
   }
   .home {
-    padding: 1rem;
+    padding: 0;
     align-items: center;
     margin-top: 4rem;
   }
@@ -92,10 +95,14 @@ hr {
   .home-descriptions {
     align-items: center;
     padding: 0;
+    justify-content: center;
   }
 
   .home-descriptions h4 {
     margin: 0.5rem;
     text-align: center;
+  }
+  .current-location {
+    margin: 5px 0 0 5px;
   }
 }
