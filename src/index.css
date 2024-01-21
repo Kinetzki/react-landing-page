@@ -108,4 +108,15 @@ hr {
   .shaded-box {
     padding: 5px 10px;
   }
+  .intro h2,
+  .intro h1,
+  .intro h3,
+  .intro p {
+    display: inline;
+    margin-right: 5px;
+  }
+  .combo-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
