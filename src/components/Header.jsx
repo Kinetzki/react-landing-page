@@ -17,7 +17,7 @@ function Header(props) {
             setActive("home")
           }}/>
         <br />
-        <TitleLabel text="Getting Started"/>
+        {!props.mobile && <TitleLabel text="Getting Started"/>}
         <ul>
           <li
             className={active === "about" ? "active" : undefined}

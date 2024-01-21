@@ -3,10 +3,12 @@ import "./App.css";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Other from "./components/Other";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
   const [currentpage, setCurrentPage] = useState("home");
   const [intersecting, setIntersecting] = useState("");
+  const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useEffect(() => {
     window.scrollTo({
@@ -24,10 +26,10 @@ function App() {
 
   return (
     <>
-      <Header goto={handlePage} />
+      <Header goto={handlePage} mobile={isMobile}/>
       <Content page={currentpage} intersecting={handleIntersect} />
-      {currentpage !== "home" ? (
-        <Other intersecting={intersecting} current={currentpage} />
+      {(currentpage !== "home" && !isMobile )? (
+        <Other intersecting={intersecting} current={currentpage}/>
       ) : undefined}
     </>
   );
