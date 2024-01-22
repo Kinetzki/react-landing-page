@@ -55,3 +55,30 @@
     flex-wrap: wrap;
     padding: 2rem;
 }
+
+.code-box {
+    font-family: monospace;
+    font-size: 16px;
+    position: relative;
+}
+
+.code-box svg{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 18px;
+    height: 18px;
+    fill: var(--text-high);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.code-box svg:hover {
+    background-color: rgba(11, 88, 88, 0.26);
+    transform: scale(1.1)
+}
+
+.code-box svg:active {
+    background-color: var(--backgroundColor);
+}

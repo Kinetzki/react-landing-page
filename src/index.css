@@ -183,4 +183,10 @@ hr {
   .icon-button {
     right:0;
   }
+  .code-box svg {
+    top: 8px;
+    right: 8px;
+    width: 13px;
+    height: 13px;
+  }
 }
