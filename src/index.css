@@ -64,12 +64,16 @@ hr {
     z-index: 1;
     width: 100vw;
     padding: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menu-panel ul {
     flex-direction: row;
     gap: 10px;
     height: fit-content;
+    margin: 5px;
+    align-items: center;
   }
 
   .menu-panel img {
@@ -170,5 +174,13 @@ hr {
   }
   .highlight-header svg{
     margin:0;
+  }
+  .icon-button svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--text-high);
+  }
+  .icon-button {
+    right:0;
   }
 }
