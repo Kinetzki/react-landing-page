@@ -132,4 +132,43 @@ hr {
   .educ-container {
     gap: 10px;
   }
+  .card-container {
+    width: 155px;
+    height: 135px;
+    font-size: 0.8rem;
+  }
+  .card-container ul li{
+    line-height: 15px;
+  }
+  .card-title h4{
+    margin: 5px;
+  }
+  .card-title {
+    gap: 5px;
+  }
+  .icon-card {
+    padding: 10px;
+    width: 80px;
+    gap: 15px;
+    height: 100px;
+  }
+  .icon-card svg {
+    width: 25px;
+    height: 25px;
+  }
+  .icon-card h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .wrap-box {
+    gap: 15px;
+  }
+  .header-description p {
+    line-height: 15px;
+    font-size: 13px;
+  }
+  .highlight-header svg{
+    margin:0;
+  }
 }

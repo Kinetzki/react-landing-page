@@ -1,5 +1,6 @@
 .highlight-section svg{
-    width: 8rem;
+    width: 100px;
+    height: 100px;
     fill: var(--text-high);
     margin-right: 1rem;
 }

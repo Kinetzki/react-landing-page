@@ -12,7 +12,7 @@ function HighlightSection({
       <div className="highlight-header">
         <div>{children}</div>
         <div className="header-description">
-          <a href={destination}><h2>{title}</h2></a>
+          <a href={destination} target="_blank"><h2>{title}</h2></a>
           <p>{description}</p>
         </div>
       </div>
