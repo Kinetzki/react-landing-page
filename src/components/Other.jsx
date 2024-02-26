@@ -23,6 +23,13 @@ function Other(props) {
             intersecting={props.intersecting}
           />
         )}
+        {props.current === "projects" && (
+          <Anchorage
+            items={["My Projects"]}
+            keywords={["proj"]}
+            intersecting={props.intersecting}
+          />
+        )}
       </div>
 
       <div className="other-foot">

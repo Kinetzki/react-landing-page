@@ -1,0 +1,22 @@
+.link-button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 10px;
+}
+.link-button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.link-button svg {
+    width: 30px;
+    height: 30px;
+    fill:aliceblue;
+}
+.link-button:hover{
+    border-bottom: 2px solid var(--secondary-color);
+}
